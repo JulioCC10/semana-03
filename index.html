@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro de Alunos</h1>
+    <form>
+    <fieldset>
+        <legend>Dados:</legend>
+        <label for="Nome">Nome:</label>
+        <input type="text" name="Nome" id="Nome" placeholder="Digite seu Nome...">
+        <label for="Sobrenome">Sobrenome:</label>
+        <input type="text" name="Sobrenome" id="Sobrenome" placeholder="Digite seu Sobrenome...">
+        <br>
+        <label for="E-mail">Email:</label>
+        <input type="text" name="E-mail" id="E-mail" placeholder="Digite seu Email...">
+        <br>
+        <label for="Senha">Senha:</label>
+        <input type="password" name="Senha" id="Senha" placeholder="Digite sua senha...">
+    </fieldset>
+        <br>
+        <label for="área">Comentários:</label>
+        <br>
+        <textarea name="Área" id="àrea" cols="30" rows="10"></textarea>
+        <br>
+        <label for="opcao">Qual a sua cor favorita:</label> <br>
+        <input type="radio" name="opcao" checked>Azul
+        <input type="radio" name="opcao">Vermelho
+        <input type="radio" name="opcao">Amarelo
+        <hr>
+        <label for="opcao2">Qual o seu animal favorito?:</label> <br>
+        <input type="radio" name="opcao2">Cachorro
+        <input type="radio" name="opcao2">Gato
+        <input type="radio" name="opcao2">Papagaio
+        <input type="radio" name="opcao2" checked>Jacaré
+        <hr>
+        <select name="estado" id="estado">
+            <option value="sc">Santa Catarina</option>
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="rs">Rio Grande do Sul</option>
+            <option value="mg">Mato Grosso</option>
+        </select>
+        <br>
+        <label for="Itens">Escolha os itens de informática:</label>
+        <input type="checkbox" name="monitor" id="monitor">monitor
+        <input type="checkbox" name="teclaco" id="teclaco">teclaco
+        <input type="checkbox" name="impressora" id="impressora">impressora
+        <hr>
+        <input type="button" value="Botão Simples">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar Formulário">
+        <hr>
+
+
+
+    </form>
+
+</body>
+</html>
